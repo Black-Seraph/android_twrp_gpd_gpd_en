@@ -63,8 +63,7 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT :="sdcard1"
 RECOVERY_SDCARD_ON_DATA := true
 
 TW_DEFAULT_EXTERNAL_STORAGE := true
-TW_INCLUDE_CRYPTO := true
-TW_CRYPTO_USE_SYSTEM_VOLD := true
+TW_INCLUDE_CRYPTO := false
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 128
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
